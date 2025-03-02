@@ -14,14 +14,17 @@ MarketDataParser 基于 Net9.0版本 探索演示了多种从字节数组转换�
 10. MarketDataFieldUnsafeCodePtr      用unsafe代码直接操作指针，将字节数组的内存地址强制转换为结构体指针
 
 ### 二、项目结构
+
+```
 ├── benchmarks
-│   └── MarketDataParser.Benchmarks       # 运行 BenchmarkDotNet 的性能基准测试项目
+│   └── MarketDataParser.Benchmarks  # 运行 BenchmarkDotNet 的性能基准测试项目
 ├── src
-│   ├── MarketDataParser                  # Parser核心逻辑
+│   ├── MarketDataParser             # Parser核心逻辑
 │   └── SourceGenerators
-|                └── SourceGen                     # SourceGenerator 实现
+│       └── SourceGen                # SourceGenerator 实现
 └── tests
-     └── MarketDataParser.Tests            # 单元测试，验证每种解析方式结果正确性
+    └── MarketDataParser.Tests       # 单元测试，验证每种解析方式结果正确性
+```
 
 ### 三、Benchmark 结果
 
