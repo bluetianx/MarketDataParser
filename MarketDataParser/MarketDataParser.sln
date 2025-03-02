@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketDataParser", "src\MarketDataParser\MarketDataParser.csproj", "{085E3082-DB60-407F-882F-8FC6FBEC5128}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{759D9DD7-0FFE-4C5E-9351-EA72FABA30D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "benchmarks", "benchmarks", "{19B0C251-C77D-423F-9C46-CD410FFC20CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{9DB493A8-896F-4E1F-8609-6E2B62C2AFEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketDataParser.Test", "tests\MarketDataParser.Test\MarketDataParser.Test.csproj", "{FE6CF302-D73F-482C-8FFA-FB01970102C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketDataParser.Benchmarks", "benchmarks\MarketDataParser.Benchmarks\MarketDataParser.Benchmarks.csproj", "{3A6D6FA8-8880-49A5-BA0C-2D1634523A41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SouceGenerators", "SouceGenerators", "{3C95BF84-0D6F-454A-BE11-849684E5FF9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SouceGen", "src\SourceGenerators\SouceGen\SouceGen\SouceGen.csproj", "{23F799C8-45F9-4B31-A10C-0DF987451DC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{085E3082-DB60-407F-882F-8FC6FBEC5128}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{085E3082-DB60-407F-882F-8FC6FBEC5128}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{085E3082-DB60-407F-882F-8FC6FBEC5128}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{085E3082-DB60-407F-882F-8FC6FBEC5128}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE6CF302-D73F-482C-8FFA-FB01970102C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE6CF302-D73F-482C-8FFA-FB01970102C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE6CF302-D73F-482C-8FFA-FB01970102C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE6CF302-D73F-482C-8FFA-FB01970102C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A6D6FA8-8880-49A5-BA0C-2D1634523A41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A6D6FA8-8880-49A5-BA0C-2D1634523A41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A6D6FA8-8880-49A5-BA0C-2D1634523A41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A6D6FA8-8880-49A5-BA0C-2D1634523A41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23F799C8-45F9-4B31-A10C-0DF987451DC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23F799C8-45F9-4B31-A10C-0DF987451DC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23F799C8-45F9-4B31-A10C-0DF987451DC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23F799C8-45F9-4B31-A10C-0DF987451DC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{085E3082-DB60-407F-882F-8FC6FBEC5128} = {759D9DD7-0FFE-4C5E-9351-EA72FABA30D5}
+		{FE6CF302-D73F-482C-8FFA-FB01970102C6} = {9DB493A8-896F-4E1F-8609-6E2B62C2AFEE}
+		{3A6D6FA8-8880-49A5-BA0C-2D1634523A41} = {19B0C251-C77D-423F-9C46-CD410FFC20CC}
+		{3C95BF84-0D6F-454A-BE11-849684E5FF9F} = {759D9DD7-0FFE-4C5E-9351-EA72FABA30D5}
+		{23F799C8-45F9-4B31-A10C-0DF987451DC8} = {3C95BF84-0D6F-454A-BE11-849684E5FF9F}
+	EndGlobalSection
+EndGlobal
